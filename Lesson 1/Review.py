@@ -1,12 +1,17 @@
 # Just a quick review
 # conditionals, loops, and function
 
-# If elif else statements
+# string formatting
+x = 5
+print("x is {}".format(x))
+print("x is {number}".format(number=x))
+
+# if elif else statements
 
 age = 16
 if age >= 18:
     print("You are an adult")
-elif age < 18:
+elif 0 < age < 18:
     print("You are a minor")
 else:
     print("I don't even know what you are...")
