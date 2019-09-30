@@ -1,4 +1,5 @@
 ## Introduction:
+- Find a way to communicate: preferably messenger
 - As they eat, cover what they want to do, such as focusing on the CCC (built-in Python functions, efficiency, algorithm, etc.) or on Python (such as project based work, probably for after the CCC)
 - Github Student Pack: https://education.github.com/pack, make an account with your regular email, then click get the pack from the url listed above and use your VSB email to verify that you are a student
     - Your student email is {Your student ID}@learn.vsb.bc.ca and password is most likely 'student', but you may have to check with the office
