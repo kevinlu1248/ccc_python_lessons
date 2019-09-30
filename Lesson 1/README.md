@@ -4,5 +4,5 @@
 3. zip.py: (5 minutes) go over a commonly used function in CCC: zip; also there is an activity
 4. Try doing dmoj.ca/problems/ccc18j4 using zip!
 
-**Note that each of the Python file's teaching materials can be found at:** 
-[github.com/kevinlu1248/ccc_python_lessons/tree/master/Lesson%201](github.com/kevinlu1248/ccc_python_lessons/tree/master/Lesson%201)
+**Note that each of the Python file's teaching materials can be found in the Lesson 1 repository at:**
+https://github.com/kevinlu1248/ccc_python_lessons/tree/master/Lesson%201
