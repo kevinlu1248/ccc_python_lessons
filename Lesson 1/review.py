@@ -1,5 +1,5 @@
 # Just a quick review
-# conditionals, loops, and function
+# string formatting, conditionals, loops, and function
 
 # string formatting
 x = 5
