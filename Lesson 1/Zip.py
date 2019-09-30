@@ -28,8 +28,10 @@ print(list(desired_array))
 print([row for row in desired_array])
 [print(row) for row in desired_array]
 
-# activity: rotate a matrix 90%
+# ACTIVITY: rotate a matrix 90%
 def rotate(matrix):
     return zip(*matrix[::-1])
 
 [print(row) for row in rotate(array)]
+
+# ACTIVITY: do dmoj 2018 j4 using zip at dmoj.ca/problems/ccc18j4
