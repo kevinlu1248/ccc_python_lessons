@@ -1,10 +1,12 @@
 # https://dmoj.ca/problem/ccc18s2
 # Kevin Lu
 
+# inputs
 grid = [[int(n) for n in input().split()] for _ in range(int(input()))]
 FIX_HORI = grid[0][0] > grid[0][1]
 FIX_VERT = grid[0][0] > grid[1][0]
 
+# processing
 if FIX_HORI and FIX_VERT:
     grid = [row[::-1] for row in grid[::-1]]
 elif not FIX_HORI and FIX_VERT:
@@ -12,6 +14,7 @@ elif not FIX_HORI and FIX_VERT:
 elif FIX_HORI and not FIX_VERT:
     grid = [row[::-1] for row in grid]
 
+# output
 [print(' '.join(map(str, row))) for row in grid]
 
 """
