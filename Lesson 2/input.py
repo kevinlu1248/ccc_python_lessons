@@ -2,7 +2,7 @@
 # This will use https://dmoj.ca/problem/ccc18s2 as an example
 # This is what I see people usually do
 
-'''
+"""
 I like to put the sample inputs and the sample outputs in the file to make it easier to copy paste
 I usually do all of them
 
@@ -16,7 +16,7 @@ Sample Output 1
 
 1 3
 2 9
-'''
+"""
 
 N = int(input())
 grid = []
@@ -36,7 +36,7 @@ for i in range(N):
 # You can simplify it to
 
 grid = []
-for i in range(int(input())):
+for _ in range(int(input())):
     list = []
     for num in input().split():
         list.append(int(num))
@@ -49,13 +49,13 @@ for i in range(int(input())):
 # Try to understand this by reading it; this is an essential skill of coding
 
 grid = []
-for i in range(int(input())):
+for _ in range(int(input())):
     grid.append([int(n) for n in input().split()])
 
 # Secondly, lets look at using map
 
 grid = []
-for i in range(int(input())):
+for _ in range(int(input())):
     grid.append(list(map(int, input().split())))
 
 # Now lets try implementing this into your solutions for https://dmoj.ca/problem/ccc18s2 and https://dmoj.ca/problem/ccc16j2
