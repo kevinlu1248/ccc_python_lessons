@@ -39,7 +39,17 @@ print(list(combinations('ABCD', 2)))
 
 print(list(starmap(lambda a, b: a > b, [(1,2), (4,5), (10, 1)])))
 
-# HW #1: find out what tee() does from https://docs.python.org/3/library/itertools.html#itertools.tee 
+print(list(compress('ABCDEF', [1,0,1,0,1,1])))
+
+print(list(accumulate([1,2,3,4,5])))
+
+print(list(zip_longest('ABCD', 'xy', fillvalue='-')))
+
+# HW #1: find out what tee() and groupby() does from https://docs.python.org/3/library/itertools.html#itertools.tee 
 
 # functools: https://docs.python.org/3/library/functools.html
 # operators: https://docs.python.org/3/library/operator.html
+
+# HW #2: Finish problems from last day
+# HW #3: Read the following Khan Academy Articles https://www.khanacademy.org/computing/computer-science/algorithms#asymptotic-notation
+# (try to finihs everything in the chapetr)
