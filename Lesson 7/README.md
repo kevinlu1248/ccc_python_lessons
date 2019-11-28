@@ -1,4 +1,4 @@
-## Lesson on Array Lists, Linked Lists, Sets and Dictionaries
+## Lesson on Array Lists, Linked Lists, and Sets
 ### Arrays
 * Basically only Java calls this Array List so we will just call it array here
 * Suppose you run at the speed of light and you have a row of cupboards which contain pieces of information
@@ -55,7 +55,6 @@ class LinkedList:
     * Insertion and deletion
     * Checking for membership
     * Subsets and supersets
-
 ![Image not found](set_operations.png)
 * However, conventionally, usually sets include integers, tuples or strings
     * In Python, only immutable objects are allowed: so you can not easily put dictionaries, sets, lists (you must use a tuple) or other objects in sets
@@ -77,5 +76,3 @@ defined_set = {'a', 'b', 'c', 1, 2, 3} # however in this case we can use set bra
 
 # search up documentation for the rest of the operations of sets in Python
 ```
-
-### Dictionaries
