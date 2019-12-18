@@ -62,4 +62,38 @@ square(5)
 * Algorithm
     * A set of instructions to complete a certain task
 * Efficiency
-    * 
+    * How little resources an algorithm uses
+* Big O, Big Theta, Big Omega
+    * Used to measure efficiency and uses asymptotic notation
+* Asymptotic Notation
+    * How to functions compare for very large values of its inputs
+* Data structures
+    * Stacks
+        * First in last out
+        * Push pop and peak are constant time
+    * Queue
+        * First in first out
+        * Push pop and peak are constant time
+    * Deque
+        * Double ended queue
+    * Array Lists
+        * More or less just lists
+        * Constant everything except insertion, deletion and traversing
+    * Linked Lists
+        * Train analogy
+        * Constant everything except accessing and traversing
+    * Sets
+        * Unordered dataset
+        * Everything only appears once
+        * Constant time for checking for membership
+    * Dictionary
+        * Key value pairs
+        * Everything is hashed and checking things is constant time
+    * ```collections```
+        * ```namedTuple()``` 
+            * Immutable dictionary
+        * ```Counter```
+            * Dictionary with only numbers for values
+            * Great for counting things, thus the name
+        * ```defaultdict```
+            * Dictionary with default value
