@@ -60,7 +60,7 @@ print(search(int(input())))
 ```
 
 ### Demonstration of Graph Theory
-
+Check [ccc18j5.py](https://github.com/kevinlu1248/ccc_python_lessons/Lesson%2012/ccc18j5.py).
 
 ### Recursion
 * Recursion is basically where a function calls on itself
